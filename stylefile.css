@@ -1,0 +1,136 @@
+body{
+    background-image: url(wp2.webp);
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+     
+}
+     
+
+#page{
+    width:500px;
+    height:500px;
+    background-color:rgba(255, 255, 255, 0.268); 
+    border-radius:10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#heading{
+    color:white;
+    font-weight: bold;
+    font-size:50px ;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+#username{
+border-radius: 30px;
+color:white;
+background-color:rgb(255, 255, 255,0.3);
+border:0;
+height: 50px;
+width: 400px;
+font-size: 20px;
+padding-left: 15px;
+}
+
+#password{
+border-radius:30px;
+color:white;
+background-color:rgba(255, 255, 255, 0.3);
+border:0; 
+height: 50px;
+width: 400px;
+margin-top: 20px;
+margin-bottom: 0; 
+font-size: 20px;
+padding-left: 15px;  
+}
+#username::placeholder,
+#password::placeholder {
+    color: rgba(81, 74, 74, 0.867);
+}
+#remaining {
+color:white;
+font-family:unset;
+font-size: 19px;
+
+ transform: translate(-68px,-20px);
+}
+
+#rememberme{
+color:rgb(255, 255, 255);
+}
+
+
+#forgotpass{
+color:white;
+position:relative;
+left:130px;
+font-weight: bold;    
+}    
+  
+#button{
+    border-radius: 30px;
+    height: 50px;
+    width: 400px;
+    font-size: 20px;
+    background-color: aliceblue;
+    border: 0;
+    font-weight: bold;
+}
+
+
+#signin{
+font-size: 20px;
+color: rgb(242, 245, 246);
+text-align: center;
+}
+
+   
+
+#facebook{
+    display: inline-block;
+    background-color: rgba(240, 248, 255, 0.522);
+    height: 40px;
+    width: 130px;
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: cursive;
+    padding-top: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+
+}
+
+
+
+#linkedin{
+    display: inline-block;
+    background-color: rgb(240, 248, 255,0.522);
+    height: 40px;
+    width:120px;
+    text-align: center;
+    color:brown;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: cursive;
+    padding-top: 10px;
+    border-radius: 20px;
+
+}
+
+#linkedin i{
+    margin-right:7px;
+}
+
+#linkedin:hover{
+   background-color:rgba(255, 255, 255, 0.853);
+}
+#facebook:hover{
+    background-color:rgba(255, 255, 255, 0.853);
+ }
